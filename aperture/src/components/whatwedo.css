@@ -1,0 +1,101 @@
+.head-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-text h4 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.head-text p {
+  font-family: 'Poppins';
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+}
+
+
+.cards {
+  margin-top: 3%;
+  display: grid;
+  grid-template-areas: 'auto auto';
+  gap: 1%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.img {
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 576px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 3%;
+  padding-bottom: 4%;
+}
+
+.pc {
+  background-image: url(./png/px.png);
+}
+
+.line {
+  background-image: url(./png/line.png);
+}
+
+.tree {
+  background-image: url(./png/tree.png);
+}
+
+.deer {
+  background-image: url(./png/deer.png);
+}
+
+
+.big-text{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+.small-text {
+  width: 500px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  margin-bottom: 2%;
+}
+
+.btn {
+  height: 42px;
+  width: 143px;
+  background: #FFFFFF;
+  border-radius: 14px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  text-decoration: underline;  
+}
+
+.blackbox {
+  background-image: url(./png/blackbox.png);
+  background-repeat: no-repeat;
+  height: 33px;
+  width: 50px;
+}

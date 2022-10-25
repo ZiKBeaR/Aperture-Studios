@@ -1,0 +1,72 @@
+.backg-img {
+  background-image: url(./png/head-img.png);
+  background-repeat: no-repeat;
+  height: 716px;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.backg-img h1 {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.backg-img p {
+  width: 580px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #C0C0C0;
+}
+
+.foto-info {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 100%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+
+.foto-info div {
+  background-repeat: no-repeat;
+}
+
+.time{
+  background-image: url(./png/time.png);
+  height: 16px;
+  width: 15.25px;
+  margin-right: 5px;
+}
+
+.camera {
+  background-image: url(./png/camera.png);
+  height: 16px;
+  width: 16px;
+  margin-left: 2%;
+  margin-right: 5px;
+}
+
+.iso{
+  background-image: url(./png/iso.png);
+  height: 16px;
+  width: 32px;
+  margin-left: 2%;
+  margin-right: 5px;
+}
+
+.location {
+  background-image: url(./png/location.png);
+  height: 16px;
+  width: 10px;
+  margin-left: 2%;
+  margin-right: 5px;
+}

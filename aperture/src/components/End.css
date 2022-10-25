@@ -1,0 +1,179 @@
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1% 8%;
+}
+
+.end-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.end-logo {
+  background-image: url(./png/Logo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 31px;
+  width: 128px;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+.end-small-text {
+  font-size: 13px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+.end-right {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.end-right-left-text {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+.end-right-left-text div {
+  margin: 10px 0;
+}
+
+.end-right-left-text div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.end-right-left-big-text {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+
+.end-right-right-text{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+.end-right-right-text div {
+  margin: 10px 0;
+}
+
+.end-right-right-text div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.white-line {
+  height: 2px;
+  background: #FFFFFF;
+  margin: 0 8%;
+}
+
+.end-line {
+  margin: 2% 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.end-line-left{
+  flex: 1;
+}
+
+.end-line-big-text {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.end-line-small-text {
+  font-size: 13px;
+  line-height: 20px;
+  color: #C0C0C0;
+  margin-top: 1%;
+}
+
+.end-btn {
+  box-sizing: border-box;
+  height: 52px; 
+  width: 458px;
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.end-line-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.black-box-in-btn{
+  height: 30px;
+  background: #000000;
+  border-radius: 11px;
+  width: 63px;
+}
+
+.line-end-text-and-logos {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 8%;
+}
+
+.line-end-left-text {
+  flex: 1;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+.ss-logos {
+  display: flex;
+  align-items: center;
+}
+
+.ss-logos div {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.twiter {
+  background-image: url(./png/twiter-logo.png);
+  background-repeat: no-repeat;
+  height: 19.5px;
+  width: 24px;
+}
+
+.insta {
+  background-image: url(./png/insta-logo.png);
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+.feacebook {
+  background-image: url(./png/feacebook-logo.png);
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 11.25px;
+}

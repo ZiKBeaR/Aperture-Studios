@@ -1,0 +1,201 @@
+.mountainimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(./png/mountain.png);
+  background-size: 100% 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.textright{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.bigtext h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.bigtext p {
+  width: 298px; 
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+.marggin{
+  margin-top: 7%;
+  margin-bottom: 1%;
+  padding-right: 1%;
+}
+
+
+
+/* ------------------------------------------- */
+
+.cameraimg {
+  display: flex;
+}
+
+.left-bckg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border: 1;
+}
+
+.center-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.miduem-text {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+.left-big-text {
+font-size: 28px;
+line-height: 32px;
+margin-top: 10px;
+margin-bottom: 1%;
+}
+
+.btn {
+  width: 170px;
+  margin-top: 10px;
+}
+
+.right-bckg {
+  flex: 1;
+  background-image: url(./png/camera-backg-img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 540px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* ---------------------------------- */
+
+.natureimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(./png/nature.png);
+  background-size: 100% 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+/* ----------------------------------------- */
+
+.Past-clients {
+  font-family: 'Poppins';
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.past-small-text {
+  font-family: 'Poppins';
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-top: 10px;
+}
+
+.items-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.client{
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% 100%;
+  width: 128px;
+}
+
+.hill {
+  background-image: url(./png/1-client.png);
+  height: 30px;
+}
+
+.riks {
+  background-image: url(./png/2-client.png);
+  height: 78px;
+}
+
+.studio {
+  background-image: url(./png/3-client.png);
+  height: 20px;
+}
+
+.chill {
+  background-image: url(./png/4-client.png);
+  height: 36px;
+}
+
+.stock {
+  background-image: url(./png/5-client.png);
+  height: 32px;
+}
+
+
+/* --------------------------------------------------- */
+
+.nightmountain {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(./png/nightmountain.png);
+  background-size: 100% 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.text-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.need-big-text {
+  font-family: 'Poppins';
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 8%;
+  width: 571px;
+}
+
+.need-small-text {
+  font-family: 'Poppins';
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  margin: 10px 0;
+}
